@@ -2,24 +2,18 @@
 ## Description
 A responsive web application for keeping up with your finances, depicting your entries and a chart to represent them visually.
 
+[Link to the live application](https://powerful-stream-24219.herokuapp.com/)
 ![Preview image of the application](./preview.png)
 
 ## Table of Contents
 
-
-
-
+- [Usage](#Usage)
 - [Questions](#Questions)
 - [Code-of-Conduct](#Code-of-Conduct)
 - [License](#License)
 
-
-
-
-
-
-
-
+## Usage
+This application takes advantage of the IndexedDB Web and Service Worker Web APIs, enabling slow- and no-internet functionality. Furthermore, it is a Progressive Web Application; it can be installed to your phone, tablet or computer!
 
 ## Questions
 If you need to reach me, my GitHub username (and a link to my profile page) is [RookiePrime](https://github.com/RookiePrime) and my email address is [kiefer_8@hotmail.com](mailto:kiefer_8@hotmail.com).
