@@ -34,6 +34,7 @@ const saveRecord = record => {
     const moneyObjectStore = transaction.objectStore('new_transaction');
     // Add record to store
     moneyObjectStore.add(record);
+
 };
 
 // Upload transaction to db when connection established
