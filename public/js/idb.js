@@ -1,4 +1,3 @@
-console.log('Howdy!');
 // Create the global variable that will contain the db connection
 let db;
 
@@ -68,6 +67,7 @@ const uploadTransaction = () => {
                     moneyObjectStore.clear();
 
                     alert('All saved transactions have been submitted!');
+                    window.location.reload();
                 })
                 .catch(err => console.log(err));
         }
