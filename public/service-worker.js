@@ -42,14 +42,7 @@ self.addEventListener('fetch', function(e) {
     e.respondWith(
         caches.match(e.request).then(function(request) {
             // If there's something in the cache that matches, use that. Else, do the fetch as usual
-            if (request) {
-                console.log('responding with cache : ' + e.request.url);
-                return request;
-            } else {
-                console.log('file is not cached, fetching : ' + e.request.url);
-                return fetch(e.request);
-            }
-            // return request || fetch(e.request);
+            return request || fetch(e.request);
         })
     );
 });
